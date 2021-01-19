@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Prog 5: Tetris</title>
+    
+    <link type="text/css" rel="stylesheet" href="Tetris.css">
+
+    <script type="text/javascript" src="gl-matrix.js"></script>
+    <script type="text/javascript" src="Tetris.js"></script>
+    
+  </head>
+
+  <body onload="main();">
+    <canvas id="myImageCanvas" width="750" height="750"></canvas>
+    <canvas id="myWebGLCanvas" width="750" height="750"></canvas> 
+    <label id ="score">Score</label>
+    <p id="score_v"></p>
+    <label id="level">Level</label>
+    <p id="level_v"></p>
+    <button id="start" type="button" onclick="startGame()">Start Game!</button>
+  </body>
+</html>

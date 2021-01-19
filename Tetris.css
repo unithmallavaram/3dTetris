@@ -1,0 +1,65 @@
+#myWebGLCanvas {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    z-index: 10;
+}
+
+#myImageCanvas {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    z-index: 0;
+}
+
+#score {
+    position: absolute;
+    left: 1100px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #004d00
+}
+
+#score_v {
+    position: absolute;
+    left: 1100px;
+    top:  40px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #004d00
+}
+
+#level {
+    position: absolute;
+    left: 160px;
+    top: 0 px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #004d00
+}
+
+#level_v {
+    position: absolute;
+    left: 160px;
+    top:  40px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #004d00
+}
+
+#start {
+    position: absolute;
+    left: 600px;
+    top: 760px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
